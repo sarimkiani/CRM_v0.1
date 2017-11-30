@@ -221,11 +221,6 @@ public class CRM_List_initialize {
 
 	public void key_statement(){
 		
-		//Scanner key_reader = new Scanner (System.in);
-		//int key;
-		//key = key_reader.nextInt();
-		//key_reader.nextLine();
-		
 		System.out.println("***Welcome to Customer Relationship Management System***");
 		System.out.println("Please use one of the following keys to proceed");
 		System.out.println("\t\t Key \t\t Desired Operation");
