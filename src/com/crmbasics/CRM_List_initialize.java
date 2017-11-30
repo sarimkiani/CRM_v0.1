@@ -199,6 +199,7 @@ public class CRM_List_initialize {
 		
 	}
 	
+	// Sorting Last_Name in Alphabetical order
 	class Last_Name_Comparator implements Comparator<Customer>{
 
 		@Override
@@ -224,8 +225,12 @@ public class CRM_List_initialize {
 		System.out.println("***Welcome to Customer Relationship Management System***");
 		System.out.println("Please use one of the following keys to proceed");
 		System.out.println("\t\t Key \t\t Desired Operation");
-		System.out.println("\t\t 01 \t\t Enter Customer Data");
-		
+		System.out.println("\t\t 1 \t\t Enter Customer Data");
+		System.out.println("\t\t 2 \t\t View Entire Customer Data");
+		System.out.println("\t\t 3 \t\t Search a Customer");
+		System.out.println("\t\t 4 \t\t Delete a Customer Record");
+		System.out.println("\t\t 5 \t\t Update a Customer Record");
+		System.out.println("\t\t 6 \t\t Sort Customer Data");
 		
 	}
 
